@@ -1,0 +1,147 @@
+/* Color Variables */
+
+:root{
+    /* Primary Colors */
+    --softBlue: hsl(215, 51%, 70%); 
+    --cyan: hsl(178, 100%, 50%);
+
+    /* neutral colors */
+    --mainBG: hsl(217, 54%, 11%);
+    --cardBG: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%); 
+}
+
+/* General Styling of the body and card */
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--mainBG);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    color: var(--white);
+    
+}
+
+.card{
+    margin: 0 auto;
+    width: 225px;
+    padding: 17px;
+    background-color: var(--cardBG);
+    border-radius: 12px;
+    /* height: 420px; */
+}
+
+a{
+    text-decoration: none;
+    color: var(--white);
+    opacity: 0.9;
+}
+
+/* Card Rows Styling */
+
+.main-image{
+    width: 100%;
+    border-radius: 6px;
+}
+
+h1{
+    font-size: 1rem;
+    opacity: 0.95;
+}
+
+.slogan{
+    font-size: 14px;
+    color: var(--softBlue);
+    margin-bottom: 8px;
+}
+
+.card-row{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    margin: 0;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    padding: 0;
+}
+
+.row-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    text-align: center;
+    padding-right: 10px;
+    top: 0;
+    padding: 0;
+}
+
+#eth{
+    margin-right: 0;
+    padding-right: 90px;
+}
+
+#clock-icon{
+    width: 12px;
+}
+
+.icon{
+    width: 8px;
+    height: 14px;
+    margin: auto;
+    opacity: 0.8;
+    padding-right: 1px;
+}
+
+h3{
+    font-size: 12px;
+    color: var(--cyan);
+    opacity: 0.8;
+    text-align: center;
+}
+
+p{
+    font-size: 12px;
+    color: var(--softBlue);
+    opacity: 0.9;
+}
+
+.avatar-attribution{
+    width: 160px;
+}
+
+.avatar{
+    width: 23px;
+    height: 23px;
+    border: 1px solid var(--white);
+    opacity: 0.9;
+    border-radius: 50%;
+    margin-top: 8px;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+#avatar-row{
+    border-top: 1px solid var(--line);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5px;
+    padding-right: 40px;
+    margin-top: 5px;
+}
+
+/* attribution section */
+
+.attribution{
+    margin-top: 20px;
+}
+
+
+
+
